@@ -49,3 +49,41 @@
   width: 100vw;
   background-color: #f08a4b;
 }
+
+
+@media (min-width: 301px) and (max-width: 768px){
+  #middle {
+    flex-direction: column;
+  }
+  #nav{
+    height: 20vh;
+    width: 100vw;
+  }
+  #article{
+    width: 50vh;
+
+  }
+  #adds{
+    width: 50vh;
+  }
+}
+
+@media (max-width: 375px){
+ 
+  #main{
+    flex-direction: column;
+  }
+
+  #nav{
+    height: 20vh;
+    width: 100vw;
+  }
+  #article{
+    height: 20vh;
+    width: 100vw;
+  }
+  #adds{
+    height: 20vh;
+    width: 100vw;
+  }
+}
